@@ -27,6 +27,7 @@ function launch() {
         //dectect collision
         if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
             console.log('Collision')
+            console.log('Saad Change')
             cactus.classList.remove('move_left')
             cactus.style.left = 50 + 'px'
             title.innerHTML = 'Game Over!\nYour score is: ' + counter
